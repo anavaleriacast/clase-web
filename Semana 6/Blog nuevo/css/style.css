@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,300italic);
+
+.wrapper {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1000px;
+	font-family:'Open Sans', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #ddd30b;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 5em;
+	margin-top: 2%;
+	margin-left: 2%
+}
+	
+nav li{
+	float: right;
+	display: inline-block;
+	padding: 3%;
+	color: black;
+	margin-top: -5%
+}
+
+aside {
+	float: left;
+	clear: right;
+	margin-top: 10%;
+	margin-left: 2%;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 400;
+	padding: 5%;
+}
+
+aside li {
+	padding: 5%;
+	font-weight: 300;
+	margin-top: 5%
+}
+
+#highlight2 {
+	display: none;
+}
+
+.overblock {
+	width: 60%;
+	float: right;
+	margin-top: 7.6%;
+}
+
+#latest {
+	text-align: right;
+}
+
+section {
+	float: right;
+	width: 60%;
+	height: 500px;
+	overflow-y: auto; 
+}
+
+article {
+	float: right;
+	padding-bottom: 10%;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 1.5%;
+}
+
+#date {
+	font-size: 1em;
+	text-align: center;
+	font-weight: 300;
+	font-variant: italic;
+	color: #8e810c;;
+}
+
+img {
+	width: 32.7%;
+	padding-bottom: 3%;
+}
+
+.block1 {
+	float: right;
+	display: block;
+	width: 100%;
+	margin-top: 3%;
+}
+
+article p {
+	font-size: 0.92em;
+}
+
+.text {
+	float: right;
+	margin-top: 3%;
+	line-height: 130%;
+	width: 100%;
+}
+
+#circ {
+	width: 5%;
+	margin-left: 47%;
+}
+
+footer {
+	float: left;
+	clear: both;
+	position: relative;
+ 	font-weight: 300;
+ 	margin-left: 2%;
+ 	font-style: 1em;
+}
+
+@media screen and (max-width: 850px) {
+	
+	.wrapper {
+		max-width: 850px;
+		margin: 0 auto;
+		height: auto;
+	}
+
+	h1 {
+		text-align: center;
+		margin-top: 3%;
+		width: 100%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto; 
+
+	}
+
+	nav {
+		margin-top: 7%;
+		text-align: center;
+	}
+
+	nav li {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+
+	}
+
+	#latest {
+		text-align: center;
+		padding: 15%;
+	}
+
+	.overblock {
+		float: none;
+		margin-top: -1%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%
+	}
+
+	section {
+		width: 50%;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	 img{
+	 	float: none;
+	 	margin-right: auto;
+		margin-left: auto;
+		width: 49%;
+	}
+
+	.bloque1 {
+		width: 70%;
+	}
+
+	#third {
+		width: 0%;
+	}
+
+	aside {
+		position: relative;
+		clear: both;
+		width: 100%;
+		text-align: center;
+	}
+
+		#highlight1 {
+			display: none;
+		}
+
+		#highlight2 {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			float: none;
+		}
+
+	aside li {
+		display: inline-block;
+		padding: 2%;
+		margin-top: 2%;
+	}
+
+	h3 {
+		padding: 0%
+	}
+
+	footer {
+		float: none;
+		text-align: center;
+		font-size: 0.8em;
+		padding-top: 5%;
+	}
+}
