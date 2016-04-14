@@ -1,0 +1,41 @@
+.todo {
+	align-items: center;
+	margin: 20px 20px 20px 20px;
+}
+body {
+	font-family: Helvetica;
+}
+img {
+	align: center;
+	position: absolute;
+	height: 700px;
+	width: 700px;
+}
+a {
+	font-size: 102pt;
+	color: white;
+	position: absolute;
+	top: 110px;
+	left: 35px;
+	width: 100%;
+	text-decoration: none;
+}	
+.ab {
+	text-align: right;
+	position: relative;
+	left: 700px;
+	width: 300px;
+	height: 688px;
+	font-family: Helvetica;
+	background-color: #BDE9FF
+}	
+p {
+	position: relative;
+	top: 10px;
+	right: 5px;
+}	
+a:hover {
+	color: #3185FF;
+}
+#bottom {
+	top: 170px;			
