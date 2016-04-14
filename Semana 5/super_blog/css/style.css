@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic);
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #FFE1D8;
+	font-family: 'Open Sans'
+}
+
+nav {
+	float: right;
+	margin-top: -50px;
+}
+
+nav li {
+	color: white;
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Open Sans';
+}
+
+nav a {
+	color: white;
+	font-weight: 600;
+}
+
+nav a:hover {
+	color: #FFE1D8;
+}
+
+aside ul {
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+aside a {
+	color: black;
+}
+
+aside a:hover {
+	color: #FF4841;
+}
+
+h1 {
+	margin-left: 10px;
+	font-size: 42pt;
+}
+
+header {
+	background-color: #FF4841;
+	color: white;
+	padding: 5px;
+}
+
+aside {
+	position: absolute;
+	margin-top: 20px;
+	width: 235px;
+	background-color: white;
+	padding-bottom: 363px;
+	padding-top: 10px;
+	border: 5px solid #FFE1D8;
+}	
+
+section {
+	position: absolute;
+	margin: 30px 0px 0px 360px;
+	width: 630px;
+}
+
+#date {
+	font-size: 10pt;
+	color: black;
+	font-style: italic;
+}
+
+article {
+	border: white 2px solid;
+	padding: 15px;
+	margin-right: -5px;
+	padding-right: 20px;
+	line-height: 150%;
+	font-size: 11pt;
+}
+
+h2 {
+	font-size: 14pt;
+}
+
+footer {
+	background-color: #FF4841;
+	border: 5px solid #FFE1D8;
+	position: relative;
+	margin: 800px 600px 0px 0px;
+	padding: 8px;
+	width: 974px;
+	font-size: 11pt;
+	color: white;
+}
