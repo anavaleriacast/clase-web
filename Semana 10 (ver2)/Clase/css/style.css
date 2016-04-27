@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,300italic);
+
+.wrapper {
+	width: 100%
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: 'Open Sans'
+}
+
+.container {
+	margin: 0 auto;
+	width: 75%;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin-left: 8.8%;
+}
+
+.container div {
+	width: 25%;
+	float: right;
+	border: solid white;
+	padding: 2%;
+	align-content: center;
+	align-items: center;
+
+}
+
+.container div img {
+	width: 100%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+#circle {
+	border-radius: 50% 75%;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	font-weight: 300;
+	padding: 6%;
+}
+
+p {
+	font-size: 0.9em;
+	padding-top: 4%;
+}
