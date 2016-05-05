@@ -35,13 +35,13 @@ hr {
 .texto {
 	width: 90%;
 	padding-left: 3%;
-	padding-top: 4.5%;
+	padding-top: 5%;
 }
 
 .texto p {
 	line-height: 170%;
 	font-weight: 300;
-	padding-bottom: 8%;
+	padding-bottom: 4%;
 }
 
 .right {
@@ -68,5 +68,5 @@ hr {
 	float: left;
 	line-height: 170%;
 	font-weight: 300;
-	padding-bottom: 12%;
+	padding-bottom: 4%;
 }
