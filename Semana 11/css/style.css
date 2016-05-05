@@ -1,65 +1,72 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,300italic);
 
-.wrapper {
-	width: 100%;
-	font-family: 'Open Sans';
-	margin: 0 auto;
-	background-color: white; 
-	margin-top: 7%;
-}
 
-body {
-	background-color: #ff0319;
+.wrapper {
+	width: 100%
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: 'Open Sans';
 }
 
 h1 {
-	font-size: 5em;
-	font-weight: 600;
-	letter-spacing: 0.7em;
-	width: 80%;
-	color: yellow;
-	position: absolute;
-	margin-top: 12%;
 	text-align: center;
-	margin-left: 12%;
-	z-index: 1;
 }
 
-.container {
-	width: 90%;
-	position: relative;
-	padding: 5%;
-}
-
-img {
-	width: 100%;
-}
-
-p {
-	padding: 5%;
-	padding-top: 0%;
-	text-align: center;
-	line-height: 170%;
-	padding-bottom: 4%;
-}
-
-h2 {
-	text-align: center;
-	word-spacing: 1.5em;
-	padding-bottom: 4%;
-	font-size: 1.3em;
-	color: #2c7b42;
-	font-weight: 300;
-}
-
-.container2 {
+iframe {
+	margin: 0 auto;
 	align-content: center;
-	padding-bottom: 3%;
-	align-items: center;
-	width: 100%;
-	margin-left: 5%;
 }
 
-audio {
-	width: 30%;
+hr {
+	width: 90%;
+}
+
+.left {
+	width: 35%;
+	position: relative;
+}
+
+.left img {
+	float: left;
+	padding: 15%;
+	width: 100%;
+}	
+
+.texto {
+	width: 90%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+
+.texto p {
+	line-height: 170%;
+	font-weight: 300;
+	padding-bottom: 4%;
+}
+
+.right {
+	position: relative;
+	width: 35%;
+	float: right;
+}
+
+.right img {
+	width: 100%;
+	padding: 15%;
+	float: right;
+}
+
+.otrotext {
+	float: left;
+	width: 50%;
+	padding-right: 3%;
+	padding-top: 4.5%;
+	padding-left: 5%;
+}
+
+.otrotext p {
+	float: left;
+	line-height: 170%;
+	font-weight: 300;
+	padding-bottom: 4%;
 }
