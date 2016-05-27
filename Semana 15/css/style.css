@@ -1,0 +1,568 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800);
+
+#container {
+	width: 100%;
+	font-family: 'Open Sans', Helvetica, Sans-serif;
+	margin: 0 auto;
+	background-color: #FFCC33; 
+}
+
+header {
+	padding: 5%;
+	text-align: center;
+	display: flex;
+}
+
+header .col-1 {
+	width: 10%;
+	margin: 0 auto;
+}
+
+header .col-2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header .col-3 {
+	width: 10%;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-size: 5.5em;
+	font-weight: 700;
+	color: white;
+	width: 100%;
+	padding-top: -1%;
+}
+
+header h1:hover {
+	opacity: 0.7;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+i {
+	color: white;
+	padding-top: 7%;
+}
+
+header i:hover {
+	opacity: 0.7;
+}
+
+header .cart {
+	padding-top: 3%;
+}
+
+nav {
+	width: 97%;
+	padding: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 4%;
+	padding-top: 0%;
+}
+
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+
+nav a {
+	font-size: 1.3em;
+	opacity: 0.5;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	clear: both;
+
+}
+
+a:hover {
+	opacity: 1;
+}
+
+#main {
+	width: 100%;
+	position: relative;
+}
+
+#main img {
+	width: 100%;
+}
+
+#main h2 {
+	font-size: 5.5em;
+	font-weight: 700;
+	color: white;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    opacity: 0.7;
+    border: solid white 4px;
+}
+
+#main h2:hover {
+	opacity: 1;
+}
+
+#main h4 {
+	font-size: 1.75em;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	float: left;
+	padding: 1%;
+}
+
+#main a {
+	text-decoration: none;
+	color: white;
+}
+
+
+footer {
+	display: flex;
+	padding: 1%;
+	position: static;
+}
+
+footer i {
+	color: white;
+}
+
+footer i:hover {
+	opacity: 0.7;
+}
+
+footer .col-1 {
+	width: 94%;
+	color: white;
+	text-align: left;
+}
+
+footer .col-1 p {
+	width: 100%;
+}	
+
+footer .col-2 {
+	width: 3%;
+	float: right;
+	position: relative;
+}
+
+footer .col-3 {
+	width: 3%;
+	float: right;
+}
+
+/*CART*/
+
+#containercart {
+	width: 100%;
+	font-family: 'Open Sans', Sans-serif;
+	margin: 0 auto;
+	background-color: #EE1E26; 
+}
+
+#cart {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0% 5% 0%;
+	color: white;
+}
+
+#cart table {
+	width: 50%;
+	padding: 3%;
+	margin: 0 auto;
+}
+
+th, td {
+   border-bottom: 0.7px solid white;
+   font-weight: 300;
+   text-align: left;
+}
+
+th, td {
+	padding: 3%;
+}
+
+th {
+	font-weight: 700;
+	font-size: 1em;
+	background-color: #EE1E26;
+	color: white;
+}
+
+#cart button {
+	text-decoration: none;
+	border: white solid 2px; 
+	color: white;
+	padding: 1%;
+	font-size: 1em;
+	width: 10%
+	background-color: #EE1E26;
+}
+
+#button {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+#cart button:hover {
+	opacity: 0.7;
+}
+
+/*SIGN IN / UP*/
+
+#master {
+	width: 100%;
+	/*padding: 2%;*/
+	color: white;
+}
+
+
+#inputs {
+	width: 45%;
+	margin: 0 auto;
+	display: flex;
+	padding: 1% 0 3% 0;
+	line-height: 150%;
+	font-weight: 300;
+}
+
+#inputs .col-1{
+	width: 50%;
+	margin: 0 auto;
+	padding-right: 3%;
+}
+
+#inputs .col-2{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#inputs h3 {
+	font-size: 2em;
+	padding-bottom: 10%
+}
+
+#inputs button {
+	text-decoration: none;
+	background-color: #FFCC33; 
+	color: white;
+	border: none;
+	margin-top: 10%;
+	padding: 5%;
+	font-size: 1em;
+	width: 70%;
+}
+
+#inputs button:hover {
+	background-color: #EE1E26; 
+}
+
+input {
+	width: 85%;
+	padding: 2% 0 2% 0;
+}	
+
+
+/*ABOUT*/
+
+#containerabout {
+	width: 100%;
+	font-family: 'Open Sans', Sans-serif;
+	margin: 0 auto;
+	background-color: #FFCC33; 
+}
+
+#about {
+	width: 100%;
+	padding: 6% 0% 6% 0%;
+	background-color: #EE1E26;
+}
+
+#about p {
+	width: 51%;
+	line-height: 150%;
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 3%;
+	color: white;
+	border: solid white 4px;
+	font-size: 1.2em;
+}
+
+/*CONTACT*/
+
+#googleMap {
+	margin-right: auto;
+	margin-left: auto;
+	right: 0
+	left: 0;
+	position: relative;
+	background-color: white;
+}
+
+#info {
+	text-align: center;
+	display: flex;
+	padding: 1% 0 2% 0;
+}
+
+#info .col-1 {
+	width: 50%;
+}
+
+#info .col-2 {
+	width: 25%;
+}
+
+#info .col-3 {
+	width: 25%;
+}
+
+#info h4 {
+	color: white;
+	font-size: 1.6em;
+	font-weight: 700;
+	padding: 3%;	
+}
+
+#info p {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: 300;
+	line-height: 150%;
+	text-align: left;
+	color: white;
+	padding: 5%;
+	text-align: left;
+}
+
+
+/*PRODUCTOS*/
+
+
+#productos {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#productos img {
+	width: 100%;
+}
+
+#productos .row-1 {
+	position: relative;
+}
+
+#productos h2 {
+	font-size: 5.5em;
+	font-weight: 700;
+	color: white;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    opacity: 0.7;
+    border: solid white 4px;
+}
+
+#productos h2:hover {
+	opacity: 1;
+}
+
+#productos .row-2 {
+	margin-top: -0.5%;
+	position: relative;
+}
+
+#productos .row-3 {
+	margin-top: -0.5%;
+	position: relative;
+}
+
+
+#productos a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*TIENDA*/
+
+
+#tienda {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+#tienda img {
+	width: 100%;
+}
+
+#tienda .col-1 {
+	position: relative;
+	width: 50%;
+}
+
+#tienda h2 {
+	font-size: 5.5em;
+	font-weight: 700;
+	color: white;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    opacity: 0.7;
+    border: solid white 4px;
+}
+
+#tienda h2:hover {
+	opacity: 1;
+}
+
+#tienda .col-2 {
+	position: relative;
+	width: 50%;
+}
+
+#tienda .col-3 {
+	margin-top: -0.5%;
+	position: relative;
+	width: 50%;
+}
+
+#tienda .col-4 {
+	margin-top: -0.5%;
+	position: relative;
+	width: 50%;
+}
+
+
+#tienda a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*PRODUCT PAGE*/
+
+#containerproduct {
+	width: 100%;
+	font-family: 'Open Sans', Helvetica, Sans-serif;
+	margin: 0 auto;
+	min-height: 800px;
+}
+
+#productpage {
+	display: flex;
+}
+
+#productpage h2 {
+	font-size: 5.5em;
+	font-weight: 700;
+	color: white;
+	border: solid white 4px;
+	padding: 4%;
+	width: 70%;
+	text-align: center;
+}
+
+#productpage p {
+	width: 78%;
+	line-height: 150%;
+	padding-top: 5%;
+	color: white; 
+}
+
+#productpage .col-1 {
+	width: 50%;
+	padding: 0% 5% 5% 5%;
+}
+
+#productpage .col-2 {
+	width: 50%;
+}
+
+#productpage .col-2 a {
+	font-size: 6em;
+	font-weight: 700;
+	color: white;
+	padding: 4%;
+	width: 70%;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+#productpage .col-2 a:hover {
+	opacity: 1;
+}
+
+#productpage .col-2 h3 {
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	padding: 0 4% 4% 4%;
+	width: 70%;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#main h2 {
+		border: none;
+	}
+
+	#productos h2 {
+		border: none;
+	}
+
+	#tienda {
+		display: initial;
+	}
