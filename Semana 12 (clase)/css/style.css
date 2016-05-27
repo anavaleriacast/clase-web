@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,300italic);
+
+#container {
+	font-family: 'Open Sans', Helvetica, Sans;
+	margin: 0 auto;
+	width: 90%
+}
+
+button {
+	text-decoration: none;
+	background-color: #e9c313;
+	border: none;
+	width: 30%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	text-transform: lowercase;
+	vertical-align: all;
+	font-size: 0.9em;
+	color: white;
+}
+
+button:hover {
+	background-color: #ffdf48;
+}
+
+header {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+header img {
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: 0 auto;
+	float: left;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding-bottom: 7%;
+	padding-right: 23.5%;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 1.3em;
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+}	
+
+header a:hover {
+	color: #e9c313;
+}
+
+#nopad {
+	padding-right: 0;
+}
+
+#main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#main h2 {
+	position: absolute;
+	font-size: 2.5em;
+	text-align: center;
+	z-index: 1;
+	text-transform: lowercase;
+	font-weight: 600;
+	margin-top: -19%;
+	color: white;
+	letter-spacing: 0.1em;
+}
+
+#main h3 {
+	position: absolute;
+	font-size: 1em;
+	z-index: 1;
+	text-transform: lowercase;
+	font-weight: 600;
+	margin-top: -15.3%;
+	color: white;
+	letter-spacing: 0.09em;
+}
+
+
+#main img {
+	width: 100%;
+	z-index: -1;
+}
+
+#marketing {
+	width: 70%;
+	display: flex;
+	padding: 3%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#marketing h2 {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	font-size: 1.2em;
+}
+
+#marketing p {
+	font-weight: 300;
+	padding-bottom: 5%;
+}
+
+#marketing .col-1 {
+	width: 30%;
+	padding-right: 5%;
+}
+
+#marketing .col-1 img {
+	width: 100%;
+}
+
+#marketing .col-2 {
+	width: 30%;
+	padding-right: 5%;
+}
+
+#marketing .col-2 img {
+	width: 100%;
+}
+
+#marketing .col-3 {
+	width: 30%;
+}
+
+#marketing .col-3 img {
+	width: 100%;
+}
+
+#info {
+	width: 70%;
+	margin: 0 auto;
+	display: flex; 
+	padding-top: 3%;
+}
+
+#info button {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#info .col-1 {
+	width: 50%;
+	margin-right: 5%;
+}
+
+#info .col-1 p {
+	font-weight: 300;
+	line-height: 150%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+#info .col-1 #pad {
+	padding-bottom: 4%;
+}
+
+#info .col-1 h2 {
+	font-size: 1.5em;
+	padding-bottom: 3%;
+	text-transform: lowercase;
+}	
+
+#info .col-2 {
+	width: 50%;
+}
+	
+#info .col-2 img {
+	width: 100%;
+}
+
+footer {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	line-height: 150%;
+	padding-top: 5%;
+}
+
+footer .col-1 {
+	width: 25%;
+}
+
+footer .col-1 img{
+	width: 100%;
+	padding: 3%;
+	padding-left: 0;
+}
+
+footer .col-2 {
+	width: 25%;
+	padding: 3%;
+	margin-top: -3%;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+footer .col-3 {
+	width: 25%;
+	padding: 3%;
+	margin-top: -3.5%;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #e9c313;
+}
+
+footer #bold {
+	font-weight: 400;
+}
+
+footer .col-4 {
+	width: 25%;
+	margin-top: -3%;
+	padding: 5%;
+}
+
+footer .col-4 li {
+	display: inline;
+}
+
+footer i {
+	width: 30%;
+}
