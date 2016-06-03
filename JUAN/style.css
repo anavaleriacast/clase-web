@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Bambino New Heavy';
+    src: url(type/bambino_new_heavy.ttf);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+
+}
+
+#container1 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#container1 header {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 7%;
+}
+
+#container1 header h1 {
+	font-family: 'Bambino New Heavy';
+	font-size: 11em;
+	color: #845656;
+	text-align: center;
+}
+
+#video {
+	width: 100%;
+	margin-top: -2%;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 960px;
+	height: 540px;
+	padding-top: 8%;
+}
+
+#about {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 4%;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+	font-size: 2em;
+	padding-bottom: 6%;
+}
+
+
+#container2 {
+	background-color: #845656;
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+}	
+
+#container2 header {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+#container2 header h1 {
+	font-family: 'Bambino New Heavy';
+	font-size: 11em;
+	color: white;
+	text-align: center;
+}
+
+#shop {
+	display: flex;
+	margin: 0 auto;
+}
+
+#shop .col-1 {
+	width: 35%;
+	margin: 0 auto;
+	margin-left: 12%;
+}
+
+#shop .col-1 img{
+	width: 100%;
+}
+
+#shop .col-2 {
+	width: 35%;
+	margin: 0 auto;
+	margin-right: 12%;
+}
+
+#shop .col-2 img{
+	width: 100%;
+}
+
+#secondshop {
+	display: flex;
+	margin-top: 6%;
+}	
+
+#secondshop .col-3 {
+	width: 35%;
+	margin: 0 auto;
+	margin-left: 12%;
+}
+
+#secondshop .col-3 img{
+	width: 100%;
+}
+
+#secondshop .col-4 {
+	width: 35%;
+	margin: 0 auto;
+	margin-right: 12%;
+}
+
+#secondshop .col-4 img{
+	width: 100%;
+}	
+
+img:hover {
+	opacity: 0.7;
+}	
+
+
+@media only screen and (max-width: 990px) {
+	
+	#container1 header h1 {
+	font-size: 7.5em;
+}
+
+iframe {
+	width: 640px;
+	height: 360px;
+}
