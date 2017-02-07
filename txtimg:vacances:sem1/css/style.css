@@ -30,6 +30,10 @@ h3 {
 	display: flex;
 }
 
+.rowTwo div {
+	padding-bottom: 30%;
+}
+
 #container div {
 	width: 90%;
 	padding: 3%;
