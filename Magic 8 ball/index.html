@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Magic 8-Ball</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" 
+      type="image/png" 
+      href="img/favicon.png" />
+</head>
+
+<body>
+<div class="container-fluid">	
+	
+<!-- 	<h2>Magic 8-ball</h2> -->
+
+	<div class="eightball">
+
+		<script type="text/javascript">
+		var0="It is certain."
+		var1="Reply hazy try again."
+		var2="Without a doubt."
+		var3="My reply is no."
+		var4="Very doubtful."
+		var5="As I see it, yes."
+		var6="Concentrate and ask again."
+		var7="Outlook good."
+		var8="Yes."
+		var9="Signs point to yes."
+		var10="It is decidedly so."
+		var11="Ask again later."
+		var12="Better not tell you now."
+		var13="Outlook not so good."
+		var14="Most likely."
+		var15="Don't count on it."
+		var16="My sources say no."
+		var17="Yes definitely."
+		var18="Cannot predict now."
+		var19="You may rely on it."
+
+		 now=new Date()
+		 num=(now.getSeconds() )%20
+
+		if (num == 0)
+		       {answer=var0}
+		if (num == 1)
+		       {answer=var1}
+		if (num == 2)
+		       {answer=var2}
+		if (num == 3)
+		       {answer=var3}
+		if (num == 4)
+		       {answer=var4}
+		if (num == 5)
+		       {answer=var5}
+		if (num == 6)
+		       {answer=var6}
+		if (num == 7)
+		       {answer=var7}
+		if (num == 8)
+		       {answer=var8}
+		if (num == 9)
+		       {answer=var9}
+		if (num == 10)
+		       {answer=var10}
+		if (num == 11)
+		       {answer=var11}
+		if (num == 12)
+		       {answer=var12}
+		if (num == 13)
+		       {answer=var13}
+		if (num == 14)
+		       {answer=var14}  
+		if (num == 15)
+		       {answer=var15}
+		if (num == 16)
+		       {answer=var16}
+		if (num == 17)
+		       {answer=var17}
+		if (num == 18)
+		       {answer=var18}
+		if (num == 19)
+		       {answer=var19}
+		                       
+		document.write(answer)
+		</script>
+
+	</div>
+	<button class="again" onclick="reload()">Again?</button>
+</div>
+
+<script type="text/javascript">
+	function reload() {
+		location.reload();
+	}
+</script>
+
+</body>
+
+</html>
